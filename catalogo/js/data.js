@@ -45,15 +45,15 @@ export const categories = [
         title: "Esportes e Lazer",
         items: [
             {
-                img: "https://occ-0-1270-1740.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABZYp2yEJDXvIQzpyF19MNOJMWVWVrFVFDvYdw1PXn2AP0SQo0VB-sYKrNBHR2AF17tIj0BTpBvc-4_rLylwVZK3nQSHTc7ftixE.jpg?r=01b", top10: true,
+                img: "https://occ-0-1270-1740.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABZYp2yEJDXvIQzpyF19MNOJMWVWVrFVFDvYdw1PXn2AP0SQo0VB-sYKrNBHR2AF17tIj0BTpBvc-4_rLylwVZK3nQSHTc7ftixE.jpg?r=01b", top10: true, progress: 20, 
                 youtube: "https://www.youtube.com/watch?v=aogPPCXfuSM"
             },
             {
-                img: "https://occ-0-1270-1740.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABQDFseniurULc5pC2Vk3mGMtqoVemP4yE3jJL5a7lVdHiJZbDYZM8SD4-gy6BzmNTHotkVnG-rDiKMYhcQrN3q_6_DcrLguzevk.jpg?r=224", top10: true, badge: "Novidade", badgeColor: "red",
+                img: "https://occ-0-1270-1740.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABQDFseniurULc5pC2Vk3mGMtqoVemP4yE3jJL5a7lVdHiJZbDYZM8SD4-gy6BzmNTHotkVnG-rDiKMYhcQrN3q_6_DcrLguzevk.jpg?r=224", top10: true, badge: "Novidade", badgeColor: "red", 
                 youtube: "https://www.youtube.com/watch?v=JvrWQnvEkfM"
             },
             {
-                img: "https://occ-0-1270-1740.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABXnc9MI8PVxc7gYKhzVACm4q-f2sX9zaZPq5Z84Vzw3YnY9rn3LhJDePXw0SFw9Lc832nCWmNXbkHEmpOIZtIjdGN8Qle_PBQus.jpg?r=b19", top10: true, badge: "Novo episódio", badgeColor: "red",
+                img: "https://occ-0-1270-1740.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABXnc9MI8PVxc7gYKhzVACm4q-f2sX9zaZPq5Z84Vzw3YnY9rn3LhJDePXw0SFw9Lc832nCWmNXbkHEmpOIZtIjdGN8Qle_PBQus.jpg?r=b19", top10: true, badge: "Novo episódio", badgeColor: "red", progress: 100, 
                 youtube: "https://www.youtube.com/watch?v=HSC6htNW9co"
             },
             {
@@ -61,5 +61,26 @@ export const categories = [
                 youtube: "https://www.youtube.com/watch?v=a9FMmi_rivI"
             },
         ]
-    }
+    },
+    {
+        title: "Séries documentais",
+        items: [
+            {
+                img: "https://occ-0-1270-1740.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABX2y4XhT_xunfbLF9EHILbQmHV-WZB3OwTKLeJM8i0RgxPM_jJsMQoJfUAFN0fYR8hUiF7II-0iQ7nmNkwAyjoelCXrhkm6ACZw.jpg?r=875", top10: true,
+                youtube: "https://www.youtube.com/watch?v=QvbQtARquR8"
+            },
+            {
+                img: "https://occ-0-1270-1740.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABWyQx5chuShn4A8p9y8yF44R5NVd4sGuY5woftqL7uq2lm2xX6SK24UpdE2pu70SKqGmjzLXuc9mtZLtvuS_No7NPfR4L76svow.jpg?r=37c", top10: true, badge: "Novidade", badgeColor: "red",
+                youtube: "https://www.youtube.com/watch?v=vWZZ01hozMQ"
+            },
+            {
+                img: "https://occ-0-1270-1740.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABepCbUCiOMTSt0Ch9ON-Xh9NEk63kcJ0l-RAKO-8oZZS0ond-Z-zA3Kbfg-hgN6pDpp7BxuhuLIGfbhZQLG1WOYcx98hGzrWaIM.jpg?r=6e2", top10: true, badge: "Novo episódio", badgeColor: "red",
+                youtube: "https://www.youtube.com/watch?v=gloPREnZidg"
+            },
+            {
+                img: "https://occ-0-1270-1740.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABY_ZXSQdvkKDnrSfTprbslDAlP5P8jSf4kME1N3Hb1WlkBAJaltGxRD1Kz3jFyA-DlLukHdHkNuQca8vPTHWZkD4aWIaEo2xlBI.jpg?r=3f4", top10: true, badge: "Novo episódio", badgeColor: "red", progress: 100,
+                youtube: "https://www.youtube.com/watch?v=YYxwdPkcJg4"
+            },
+        ]
+    },
 ];
