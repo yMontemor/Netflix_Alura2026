@@ -103,6 +103,16 @@ a:hover {
     cursor: pointer;
 }
 
+.profile-name {
+    max-width: 140px;
+    font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 .profile-icon {
     width: 32px;
     border-radius: 4px;
