@@ -1,9 +1,10 @@
-import { categories } from './data.js';
+import { catalogos } from './data.js';
 import { createCarousel } from './components/Carousel.js';
 
 document.addEventListener('DOMContentLoaded', () => {
     const nomePerfil = localStorage.getItem('perfilAtivoNome');
     const imagemPerfil = localStorage.getItem('perfilAtivoImagem');
+    const perfilId = localStorage.getItem('perfilAtivoId') || 'perfil1';
 
     if (nomePerfil || imagemPerfil) {
         const profileName = document.querySelector('.profile-name');
@@ -21,8 +22,11 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     const container = document.getElementById('main-content');
+    const categories = catalogos[perfilId] || catalogos.perfil1;
 
     if (container) {
+        container.innerHTML = '';
+
         categories.forEach((category) => {
             const carousel = createCarousel(category);
             container.appendChild(carousel);
